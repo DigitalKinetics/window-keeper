@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Window Keeper – Privacy Policy</title>
+<style>
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #1f2430; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 19px; margin-top: 32px; }
+  .meta { color: #6b7280; margin-top: 0; }
+  code { background: #f3f4f6; padding: 1px 5px; border-radius: 4px; font-size: 14px; }
+  @media (prefers-color-scheme: dark) { body { background: #16181f; color: #e8eaf0; } .meta { color: #a3aabb; } code { background: #242833; } a { color: #8db4ff; } }
+</style>
+</head>
+<body>
+<h1>Window Keeper – Privacy Policy</h1>
+<p class="meta">Effective 5 October 2026 · Published by Yash Kanni</p>
+
+<p>Window Keeper is a Chrome extension that lets you name browser windows, keeps the tabs of those windows saved, and reopens them after they have been closed. This policy explains what information the extension handles. The short version: it stays on your device and is never sent to the developer or anyone else.</p>
+
+<h2>Information the extension handles</h2>
+<p>For each window <strong>you choose to name</strong>, Window Keeper reads and saves:</p>
+<ul>
+  <li>the name you typed;</li>
+  <li>the address (URL), title and site-icon address of each tab in that window, whether the tab is pinned, and the order of the tabs;</li>
+  <li>the name, colour and collapsed state of any tab groups in that window.</li>
+</ul>
+<p>Windows you do not name are not saved. Private (incognito) windows are never saved. The extension does not read page content, form entries, passwords, cookies or browsing history beyond the open tabs of the windows you named.</p>
+
+<h2>Where it is stored</h2>
+<p>Everything is stored locally in your browser using Chrome's extension storage (<code>chrome.storage.local</code> for saved windows, <code>chrome.storage.session</code> for which open window currently has which name). It is not synced to your Google account and is not uploaded anywhere.</p>
+
+<h2>What is shared</h2>
+<p>Nothing. Window Keeper has no server, no account system, no analytics, no advertising and no tracking, and it does not sell, rent or share data with anyone. It does not load or run code from outside the extension.</p>
+<p>One detail for completeness: to show a website's small icon next to a tab in the list, the popup loads that icon from the address Chrome already reported for the tab. That request goes directly from your browser to the website you were already visiting, in the same way the website's own tab does. It does not pass through the developer or any third party.</p>
+
+<h2>Export and import</h2>
+<p>If you use Export, the extension creates a file containing your saved windows and tabs and your browser downloads it to your device. If you use Import, it reads a file you select. These actions happen only when you start them.</p>
+
+<h2>Permissions</h2>
+<ul>
+  <li><code>tabs</code> – to read the tabs of windows you named and to reopen, order and pin tabs when you restore a window. Chrome describes this permission as "read your browsing history"; the extension uses it only for the purpose above.</li>
+  <li><code>tabGroups</code> – to save and recreate tab groups.</li>
+  <li><code>storage</code> and <code>unlimitedStorage</code> – to keep your saved windows on your device without hitting the default storage limit.</li>
+  <li><code>alarms</code> – to refresh the saved tabs of named windows once a minute while the browser is open.</li>
+</ul>
+
+<h2>Retention and deletion</h2>
+<p>Saved windows stay on your device until you remove them. Use the ✕ button next to a window in the extension to delete it and its saved tabs, or clear the extension's data in Chrome. Uninstalling the extension deletes everything it stored.</p>
+
+<h2>Children</h2>
+<p>Window Keeper is a general-purpose tool and is not directed at children.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes, the updated version will be posted at this address with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:yash@digitalkinetics.net">yash@digitalkinetics.net</a></p>
+</body>
+</html>
